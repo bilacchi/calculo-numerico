@@ -30,7 +30,7 @@ Cálculo Numérico também é uma coleção de Jupyter Notebooks e estão dispon
 
 A análise numérica depende principalmente de álgebra linear, cálculo diferencial, cálculo integral e equações diferenciais.
 
-- **Álgebra Linear**: Você precisará de um bom entendimento de algebra linear para prosseguir facilmente pelo curso. Uma boa compreensão de álgebra linear possibilita uma melhor manipulação de dados quantitativos envolvendo mais de um número por vez. Você precisa saber operações de soma e multiplicação de vetores e marizes, além de determinantes, inversas, autovalores. Uma recomendação para esse tópico é a excelente série [A Essência da Algebra Linear][8]. Alguns exercícios estão disponíveis no [Repositórios de Notebooks][9].
+- **Álgebra Linear**: Você precisará de um bom entendimento de algebra linear para prosseguir facilmente pelo curso. Uma boa compreensão de álgebra linear possibilita uma melhor manipulação de dados quantitativos envolvendo mais de um número por vez. Você precisa saber operações de soma e multiplicação de vetores e matrizes, além de determinantes, inversas, autovalores. Uma recomendação para esse tópico é a excelente série [A Essência da Algebra Linear][8]. Alguns exercícios estão disponíveis no [Repositórios de Notebooks][9].
 - **Cálculo Diferencial**: Cálculo básico também é crucial. Você precisa saber o que derivadas e integrais são, e entender o que uma equação diferencial significa. Se você precisar refrescar cálculo diferencial e integral assista a série [A Essência do Cálculo][10] e estude as notas de aula do profº Dr. Rodrigo Fresneda (["Cálculo Diferencial"][12] e ["Cálculo Integral"][13]). Para equações diferenciais recomendo os capítulos 0-1 (incluindo os exercícios) do livro de Jiri Lebl ["Differential Equation for Engineers"][11].
 
   [8]: https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
@@ -70,7 +70,7 @@ Comentários e sugestões são sempre muito bem-vindas. Por favor, entre em cont
 !!! Tip "Dicas"
     Sugestões e dicas sobre o conteúdo ou sobre o código. Geralmente serão otimizações, pule se quiser.
 
-!!! Example "Exemples / Exercícios"
+!!! Example "Exemplos / Exercícios"
     São exemplos e sugestões para serem resolvidos. Não pule esse bloco.
 
 !!! Info "História"
