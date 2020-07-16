@@ -38,7 +38,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   icon:
-    logo: logo
+    logo: fontawesome/solid/bezier-curve
   favicon: docs/assets/favicon.svg
 
 # Plugins

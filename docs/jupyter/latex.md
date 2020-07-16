@@ -134,5 +134,10 @@ $$F(\omega) = \displaystyle\int_{-\infty}^{+\infty} f(t)e^{-j\omega t} dt$$
 # Exercícios
 
 !!! Example ""
-    1. Faça a demonstração, usando LaTeX, de $\cos^2{(x)} = \dfrac{1 + \cos{(2x)}}{2}$
-    2. Escreva o polinômio de Taylor de grau 5, usando LaTeX, para $f(x) = \sin{(x)}$
+    1. Faça a demonstração, usando LaTeX, de 
+    
+    $$\cos^2{(x)} = \dfrac{1 + \cos{(2x)}}{2}$$
+
+    2. Escreva o polinômio de Taylor de grau 6, usando LaTeX, para 
+    
+    $$f(x) = \sin{(x)}$$
