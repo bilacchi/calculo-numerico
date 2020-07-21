@@ -30,7 +30,6 @@ function draw(){
     lorenz2.update();
     lorenz1.show();
     lorenz2.show();
-
 }
 
 function windowResized() {
