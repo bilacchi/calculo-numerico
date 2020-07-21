@@ -58,7 +58,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/cristiano-moraes-bilacchi-azarias-572976a9/
     - icon: fontawesome/brands/instagram
-      link: https://instagram.com/cristianobam
+      link: https://instagram.com/cris_bilacchi
 
 # Extensions
 markdown_extensions:
@@ -117,5 +117,5 @@ extra_css:
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
-  - https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js
   - javascripts/extra.js

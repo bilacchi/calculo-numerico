@@ -7,7 +7,7 @@
 Veja o [guia do Github][2] para mais informações.
 
 !!! Info
-Existem algumas ferramentas como o [Pandoc][3] que funcionam como conversores de arquivos. Na academia, leia-se universidades, é comum o uso do LaTeX para criação de slides, contudo a criação dos chamados [beamers][4] é lenta e relativamente trabalhosa. Para solucionar esse problema e ainda permitir slides de alta qualidade, algumas pessoas escrevem suas [apresentações em markdown][5] e depois as convertem para `.tex` e `.pdf`.
+    Existem algumas ferramentas como o [Pandoc][3] que funcionam como conversores de arquivos. Na academia, leia-se universidades, é comum o uso do LaTeX para criação de slides, contudo a criação dos chamados [beamers][4] é lenta e relativamente trabalhosa. Para solucionar esse problema e ainda permitir slides de alta qualidade, algumas pessoas escrevem suas [apresentações em markdown][5] e depois as convertem para `.tex` e `.pdf`.
 
 [1]: https://en.wikipedia.org/wiki/Markdown
 [2]: https://docs.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax
