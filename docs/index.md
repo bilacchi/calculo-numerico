@@ -1,13 +1,8 @@
----
-template: overrides/main.html
-title: Cálculo Numérico
----
-
 # Cálculo Numérico
 
 
 <div class="p5-container" id="cont1"></div>
-<script src="javascripts/lorenz.js"></script>
+<script src="/javascripts/lorenz.js"></script>
 
 [Cálculo Numérico][1] é uma introdução a computação matemática incluindo:
 

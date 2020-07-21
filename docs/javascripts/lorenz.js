@@ -1,4 +1,6 @@
 let canva;
+let lorenz1;
+let lorenz2;
 
 function setup(){
     let divWidth = document.getElementById('cont1').offsetWidth;
@@ -17,7 +19,10 @@ function setup(){
 
 function draw(){
     background(0,0,0,0); // transparent background
-    let ratio = abs(8*sin(2*PI/60000*millis())) < 4 ? 4 : abs(8*sin(2*PI/60000*millis()));
+    let amplitude = windowWidth <= 767 ? 3 : 8;
+    let cap = windowWidth <= 767 ? 2 : 4
+    let func = abs(amplitude * sin(2 * PI / 60000 * millis()));
+    let ratio = func < cap ? cap : func;
     canva.scale(ratio);
     rotate(millis()*0.005/100);
 

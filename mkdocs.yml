@@ -28,8 +28,7 @@ theme:
 
   language: pt
   features:
-    #- tabs
-    - instant
+    - tabs
   palette:
     scheme: preference
     primary: teal
@@ -116,6 +115,7 @@ extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
   - https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js
-  - javascripts/extra.js
+  #- javascripts/extra.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_SVG
+  - javascripts/final.js
