@@ -29,10 +29,22 @@ theme:
   language: pt
   features:
     - tabs
+  
   palette:
-    scheme: preference
-    primary: teal
-    accent: indigo
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
   font:
     text: Roboto
     code: Roboto Mono
@@ -100,16 +112,16 @@ nav:
   - Python:
     - Números: python/numeros.md
     - Variáveis: python/variaveis.md
+    - Sequências: python/sequencias.md
+    - Lógica: python/logica.md
+    - Loops: python/loops.md
+    - Função: python/funcao.md
+    - Módulos: python/modulos.md
   - SciPy:
     - Numpy: scipy/numpy.md
     - Matplotlib: scipy/matplotlib.md
     - Scipy: scipy/scipy.md
     - Pandas: scipy/pandas.md
-
-# Google Analytics
-google_analytics:
-  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
-  - auto
 
 extra_css:
   - stylesheets/extra.css

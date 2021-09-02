@@ -4,13 +4,13 @@ Assim como as variáveis $x$ e $y$ na matemática, podemos usar variáveis na pr
 
 ## Atribuindo Valores Às Variáveis
 
-Para atribuir um valor a uma variável você usará o operador `=`. Por exemplo, nós atribuímos o valor 42 à variável `x` da seguinte forma:
+Para atribuir um valor a uma variável você usará o operador `#!python =`. Por exemplo, nós atribuímos o valor 42 à variável `#!python x` da seguinte forma:
 
 ```python linenums="1"
 x = 42
 ```
 
-Ao atribuirmos o valor, não temos nenhuma saída. Para visualizar o valor atribuído à variável `x`podemos usar a função `print()`.
+Ao atribuirmos o valor, não temos nenhuma saída. Para visualizar o valor atribuído à variável `#!python x`podemos usar a função `#!python print()`.
 
 ```python linenums="1"
 print(x)
@@ -39,9 +39,9 @@ print(x2)
 
 ## Formatando Saídas
 
-É comum utilizarmos a função `print()` para mostrarmos alertas, visualizarmos variáveis ou ainda, debbugar códigos. Porém, podemos melhorar essas saídas. O Python traz a possibilidade de formatarmos as saídas.
+É comum utilizarmos a função `#!python print()` para mostrarmos alertas, visualizarmos variáveis ou ainda, debbugar códigos. Porém, podemos melhorar essas saídas. O Python traz a possibilidade de formatarmos as saídas.
 
-As strings (`str`), isso é, os textos no Python são um outro tipo de objeto. Os textos, diferentemente dos números precisam estar entre aspas para que o Python saiba que aquilo é um texto e não variáveis. Por exemplo, se quisermos falar um **Olá, mundo!** deveremos fazer da seguinte forma:
+As strings (`#!python str`), isso é, os textos no Python são um outro tipo de objeto. Os textos, diferentemente dos números precisam estar entre aspas para que o Python saiba que aquilo é um texto e não variáveis. Por exemplo, se quisermos falar um **Olá, mundo!** deveremos fazer da seguinte forma:
 
 ```python linenums="1"
 print("Olá, mundo!")
@@ -52,7 +52,7 @@ Olá, mundo"
 ```
 
 !!! Warning "Notação de Strings"
-    No python temos algumas formas de declarar uma string. Podemos fazer isso aspas duplas `"Olá"` ou com aspas simples `'Mundo!'`. Se quisermos declarar um texto com mais de uma linha
+    No python temos algumas formas de declarar uma string. Podemos fazer isso aspas duplas `#!python "Olá"` ou com aspas simples `#!python 'Mundo!'`. Se quisermos declarar um texto com mais de uma linha
     podemos usar podemos fazer da seguinte forma:
 
     ```python linenums="1"
@@ -76,7 +76,7 @@ Raíz 1: 8.0
 Raíz 2: 2.0
 ```
 
-Para entendermos o que está acontecendo vamos por partes. A letra `f` antes da aspa simples indica que é uma string que será formatada. As chaves `{}` são os chamados placeholders, a função é indicar que ali terá uma variável. O `\n` simplesmente indica uma quebra de linha, como se tivéssemos apertado o `ENTER` no teclado.
+Para entendermos o que está acontecendo vamos por partes. A letra `#!python f` antes da aspa simples indica que é uma string que será formatada. As chaves `#!python {}` são os chamados placeholders, a função é indicar que ali terá uma variável. O `#!python \n` simplesmente indica uma quebra de linha, como se tivéssemos apertado o `ENTER` no teclado.
 
 !!! BUG
     É muito comum misturarmos tipos no Python e algumas vezes ele acaba quebrando. Por exemplo:
@@ -91,7 +91,7 @@ Para entendermos o que está acontecendo vamos por partes. A letra `f` antes da 
     TypeError: can only concatenate str (not "int") to str
     ```
 
-    Esse error acontece pois estamos tentando somar um texto, `'2'`, com um número, `1`. Caso queiramos juntar esses valores, ou concatená-los, podemos fazer o seguinte:
+    Esse error acontece pois estamos tentando somar um texto, `#!python '2'`, com um número, `#!python 1`. Caso queiramos juntar esses valores, ou concatená-los, podemos fazer o seguinte:
 
     ```python linenums="1"
     print('2',1)
@@ -136,7 +136,7 @@ Como são palavras em inglês, caso você dê nomes somente em português jamais
 
 ### Funções Nativas
 
-Além dessas palavras reservadas, o Python possui algumas funções nativas. ***Não use*** esses nomes para atribuir variáveis, caso contrário, você perderá a referência dessas variáveis. Por exemplo, não use `sum`, `min`, `max`, `list` ou `sorted` como nomes de variáveis. Veja a lista completa de [funções nativas][2].
+Além dessas palavras reservadas, o Python possui algumas funções nativas. ***Não use*** esses nomes para atribuir variáveis, caso contrário, você perderá a referência dessas variáveis. Por exemplo, não use `#!python sum`, `#!python min`, `#!python max`, `#!python list` ou `#!python sorted` como nomes de variáveis. Veja a lista completa de [funções nativas][2].
 
 [1]: https://docs.python.org/3.3/reference/lexical_analysis.html#keywords
 [2]: https://docs.python.org/3/library/functions.html

@@ -1,6 +1,6 @@
 # Números
 
-Os principais tipos numéricos do Python são: números inteiros (`int`), com ponto flutuante (`float`) e complexos (`complex`). A sintaxe dos operadores aritméticos são: 
+Os principais tipos numéricos do Python são: números inteiros (`#!python int`), com ponto flutuante (`#!python float`) e complexos (`#!python complex`). A sintaxe dos operadores aritméticos são: 
 
 | Operadores Matemáticos - Python | Descrição |
 | :---: | :---: |
@@ -12,7 +12,7 @@ Os principais tipos numéricos do Python são: números inteiros (`int`), com po
 | % | Resto |
 | ** | Potenciação |
 
-Podemos verificar os tipos dos objetos no Python usando a função `type()`
+Podemos verificar os tipos dos objetos no Python usando a função `#!python type()`
 
 ```python linenums="1"
 type(42)
@@ -24,7 +24,7 @@ int
 
 ## Int e Float
 
-Um número float, ou de ponto flutuante, é um número real escrito na forma decimal. O Python, como outras linguagens de programação, guarda números `int` e `float` de forma diferente. Ao combinarmos esses tipos, resultamos em um `float`.
+Um número float, ou de ponto flutuante, é um número real escrito na forma decimal. O Python, como outras linguagens de programação, guarda números `#!python int` e `#!python float` de forma diferente. Ao combinarmos esses tipos, resultamos em um `#!python float`.
 
 Aproximação de $\sqrt{2}$:
 
@@ -50,8 +50,8 @@ Podemos usar notações científicas para expressar números com ponto flutuante
 
 Para criar números complexos no Python podemos:
 
-1- Usar a função `complex()`
-2- Utilizar a notação `j`
+1. Usar a função `#!python complex()`
+2. Utilizar a notação `#!python j`
 
 ```python linenums="1"
 (1+2j) + (1 - 4j)
@@ -74,7 +74,7 @@ Se quisermos multiplicar números complexos:
 
 ## Forçando Tipos
 
-Podemos converter os objetos Python em outros tipos. Dessa forma, podemos converter um `float` para um `int` e vice versa.
+Podemos converter os objetos Python em outros tipos. Dessa forma, podemos converter um `#!python float` para um `#!python int` e vice versa.
 
 
 ```python linenums="1"
